@@ -105,6 +105,8 @@ python -m JITBlock.run \
     --eval_batch_size 128 \
     --learning_rate 2e-5 \
     --max_grad_norm 1.0 \
+    --only_adds \
+    --buggy_line_filepath=data/jitblock/changes_complete_buggy_line_level.pkl \
     --evaluate_during_training \
     --max_changed_block_unit 5 \
     --do_ablation True \
