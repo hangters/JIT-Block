@@ -96,9 +96,9 @@ python -m JITBlock.run \
     --model_name_or_path=microsoft/codebert-base \
     --tokenizer_name=microsoft/codebert-base \
     --do_test \
-   --train_data_file data/jitfine/changes_train.pkl data/jitfine/features_train.pkl \
-    --eval_data_file data/jitfine/changes_valid.pkl data/jitfine/features_valid.pkl\
-    --test_data_file data/jitfine/changes_test.pkl data/jitfine/features_test.pkl\
+   --train_data_file data/jitblock/changes_train.pkl data/jitblock/features_train.pkl \
+    --eval_data_file data/jitblock/changes_valid.pkl data/jitblock/features_valid.pkl\
+    --test_data_file data/jitblock/changes_test.pkl data/jitblock/features_test.pkl\
     --epoch 50 \
     --max_seq_length 512 \
     --train_batch_size 12 \
