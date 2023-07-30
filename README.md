@@ -55,7 +55,7 @@ python -m JITBlock.run \
     --only_adds \
     --buggy_line_filepath=data/jitblock/changes_complete_buggy_line_level.pkl \
     --max_changed_block_unit 5 \
-    --seed 42 2>&1 | tee model/block/saved_models_concat/test.log
+    --seed 42 2>&1 | tee model/jitblock/test.log
 
 ```
 
