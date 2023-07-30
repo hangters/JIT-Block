@@ -36,7 +36,7 @@ To obtain the evaluation, run the following command:
 
 ```shell
 python -m JITBlock.run \
-    --output_dir=model/jitfine/saved_models_concat/checkpoints \
+    --output_dir=model/jitblock/checkpoints \
     --config_name=microsoft/codebert-base \
     --model_name_or_path=microsoft/codebert-base \
     --tokenizer_name=microsoft/codebert-base \
